@@ -22,7 +22,7 @@ export default async function handler(req, res) {
     ]);
 
     for (const game of games) {
-      if (new Date() - new Date(game.updatedAt) > 1 * 60 * 1000) {
+      if (new Date() - new Date(game.updatedAt) > 20 * 60 * 1000) {
         game.rtp = parseFloat((Math.random() * (99 - 90) + 90).toFixed(2));
         await Game.findByIdAndUpdate(game._id, { rtp: game.rtp });
       }
