@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 const EnYuksekRTPOyunlarPage = ({ games }) => {
-  console.log("games: ", games);
   return (
     <>
       <Head>
