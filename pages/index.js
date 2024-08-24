@@ -1,11 +1,12 @@
 import Container from "@/components/Container";
-import games from "../data/games.json";
-
 import { useEffect, useRef, useState } from "react";
 import { useQuery } from "react-query";
-import { getGame, getGames, searchGames } from "@/utils/helpers";
+import { getGame, searchGames } from "@/utils/helpers";
 import Image from "next/image";
 import GamesLoading from "@/components/ui/loadings/GamesLoading";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import Head from "next/head";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -25,7 +26,7 @@ export default function Home() {
 
   const { isLoading: isSearchGamesLoading } = useQuery(["searchGames", query], {
     queryFn: async function () {
-      if (query.length >= 3) {
+      if (query.length >= 2) {
         const response = await searchGames(query);
         const { data } = response;
 
@@ -78,7 +79,7 @@ export default function Home() {
 
   useEffect(
     function () {
-      if (query.length >= 3) setQueryDropdown(true);
+      if (query.length >= 2) setQueryDropdown(true);
       else setQueryDropdown(false);
     },
     [query]
@@ -86,26 +87,53 @@ export default function Home() {
 
   return (
     <>
-      <header className="flex flex-col items-center justify-center bg-orange-500 h-[40vh]">
-        <h1 className="text-white text-4xl font-bold mb-2">RTP SORGU</h1>
-        <p className="text-white font-semibold text-center w-5/6 lg:w-1/3 mb-4">
+      <Head>
+        <meta
+          name="description"
+          content="RTP Sorgu | Casino oyunlarının en güncel RTP oranları"
+        />
+        <meta
+          name="keywords"
+          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar"
+        />
+        <title>RTP Sorgu | Casino oyunlarının en güncel RTP oranları</title>
+      </Head>
+      <header className="flex flex-col items-center justify-center bg-primary h-[45vh]">
+        <Image
+          src={"/logo.light.png"}
+          width={1957}
+          height={398}
+          className="w-56 lg:w-72"
+          alt="Logo"
+        />
+        <p className="text-white font-semibold text-center w-5/6 lg:w-1/3 mb-6 lg:mb-8">
           Casino oyunlarının en güncel RTP değerlerini öğrenmek için oyun ismini
           aşağıya yazınız.
         </p>
-        <div className=" relative text-center mx-auto w-full">
+        <div className="relative text-center mx-auto w-full">
           <input
             type="text"
             name="game"
-            placeholder="Bir oyun ismi giriniz"
-            className="w-3/4 lg:w-1/3 rounded focus:outline-none  transition-all text-center placeholder:text-center p-2"
+            id="game-input"
+            // placeholder="Bir oyun ismi giriniz"
+            className="w-3/4 lg:w-1/3 rounded focus:outline-none  transition-all text-center placeholder:text-center p-2 py-3"
             onChange={handleQueryOnChange}
             onClick={() => setQueryDropdown(true)}
             value={query}
             ref={dropdownRef}
             autoComplete="off"
           />
-          {queryDropdown && query.length >= 3 && (
-            <div className="dropdown absolute w-3/4 lg:w-1/3 rounded-b-lg top-full left-1/2 -translate-x-1/2 max-h-[35vh] overflow-y-scroll bg-white shadow-lg -mt-0.5">
+          {(query.length === 0 || query === "") && (
+            <label
+              htmlFor="game-input"
+              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex items-center justify-center gap-2 cursor-text text-gray-500"
+            >
+              <p>Bir oyun ismi giriniz</p>
+              <FontAwesomeIcon icon={faSearch} />
+            </label>
+          )}
+          {queryDropdown && query.length >= 2 && (
+            <div className="dropdown absolute w-3/4 lg:w-1/3 rounded-b-lg rounded-t-none top-full left-1/2 -translate-x-1/2 max-h-[35vh] overflow-y-scroll bg-white shadow-lg -mt-0.5">
               <ul>
                 {isSearchGamesLoading && (
                   <div className="dropdown grid grid-cols-12 justify-center">
@@ -122,6 +150,7 @@ export default function Home() {
                     <li
                       className="dropdown grid grid-cols-12 items-start justify-center cursor-pointer hover:bg-gray-200 transition-all py-4"
                       onClick={() => handleSelectGame(searchedGame._id)}
+                      key={searchedGame._id}
                     >
                       <div className="dropdown col-span-1 hidden lg:block"></div>
                       <div className="dropdown col-span-3 lg:col-span-2 text-center">
@@ -151,12 +180,12 @@ export default function Home() {
       </header>
       <br />
       {isSelectedGameLoading && (
-        <Container className={"lg:w-1/4"}>
+        <Container className={"lg:w-1/4 mx-auto"}>
           <GamesLoading size={"lg"} />
         </Container>
       )}
       {!isSelectedGameLoading && game && (
-        <Container className={"flex flex-col items-center my-8"}>
+        <Container className={"flex flex-col items-center my-12"}>
           <section className="flex gap-4 mb-16">
             <Image
               src={game.image}
@@ -165,7 +194,7 @@ export default function Home() {
               height={315}
               alt="Game Image"
             />
-            <div>
+            <section>
               <h2 className="text-2xl font-bold">{game.name}</h2>
               <p className="text-gray-700">Provider: {game.provider}</p>
               <p className="text-gray-700">
@@ -174,7 +203,7 @@ export default function Home() {
                   %{game.rtp}
                 </span>
               </p>
-            </div>
+            </section>
           </section>
         </Container>
       )}
@@ -197,7 +226,7 @@ export default function Home() {
           </section>
           <br />
           <section className="mb-4">
-            <h1 className="font-bold mb-1">RTP Oranı Neden Önemlidir?</h1>
+            <h2 className="font-bold mb-1">RTP Oranı Neden Önemlidir?</h2>
             <p>
               RTP oranı, bir oyunun adil olup olmadığını değerlendirmenin önemli
               bir yoludur. Daha yüksek bir RTP, oyuncuların kayıplarını azaltma
@@ -223,9 +252,9 @@ export default function Home() {
             <br />
           </section>
           <section className="mb-4">
-            <h1 className="font-bold mb-1">
+            <h2 className="font-bold mb-1">
               RTP oranı kazanma şansınızı nasıl arttırır?
-            </h1>
+            </h2>
             <p>
               RTP (Return to Player), casino oyunlarının oyunculara geri ödediği
               miktarı belirleyen önemli bir ölçümdür. RTP, bir oyunun teorik
@@ -254,8 +283,9 @@ export default function Home() {
               yaşanabileceğini unutmamak önemlidir.
             </p>
           </section>
+          <br />
           <section className="mb-4">
-            <h1 className="font-bold mb-1">Volatilite Nedir?</h1>
+            <h2 className="font-bold mb-1">Volatilite Nedir?</h2>
             <p>
               RTP'nin yanı sıra, bir oyunun volatilitesi de önemli bir
               faktördür. Volatilite, oyunun ne sıklıkla ve ne kadar büyük
@@ -271,7 +301,7 @@ export default function Home() {
             <br />
           </section>
           <section className="mb-4">
-            <h1 className="font-bold mb-1">RTP Neye Göre Belirlenir?</h1>
+            <h2 className="font-bold mb-1">RTP Neye Göre Belirlenir?</h2>
             <p>
               Oyunların RTP oranları genellikle oyun sağlayıcıları tarafından
               hesaplanır ve lisanslı casino platformlarında açıklanır. Bu
@@ -293,7 +323,7 @@ export default function Home() {
             <br />
           </section>
           <section className="mb-4">
-            <h1 className="font-bold mb-1">RTP Değerleri Güvenilir Midir?</h1>
+            <h2 className="font-bold mb-1">RTP Değerleri Güvenilir Midir?</h2>
             <p>
               Oyun sağlayıcıları tarafından belirlenen ve açıklanan RTP
               oranları, genellikle bağımsız test kuruluşları tarafından
@@ -308,9 +338,6 @@ export default function Home() {
           </section>
         </section>
       </Container>
-      <footer className="text-white text-center bg-orange-500 p-2">
-        © rtpsorgu.com Tüm hakları saklıdır.
-      </footer>
     </>
   );
 }
@@ -318,8 +345,6 @@ export default function Home() {
 export async function getServerSideProps() {
   const response = await fetch(process.env.NEXT_PUBLIC_API);
   const data = await response.json();
-
-  console.log(data.status);
 
   return {
     props: {
