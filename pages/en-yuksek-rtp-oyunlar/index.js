@@ -13,7 +13,7 @@ const EnYuksekRTPOyunlarPage = ({ games }) => {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, yüksek rtpli oyunlar, en yüksek rtp oyunlar, en çok kazandıran oyunlar, rtp'si en yüksek oyunlar"
+          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, rtp öğrenme, rtp ogrenme, yüksek rtpli oyunlar, en yüksek rtp oyunlar, en çok kazandıran oyunlar, oyunlarda rtp, rtp'si en yüksek oyunlar, casino rtp, rtp ne demek, rtp nedir, casino oyun rtp, canlı rtp, canlı rtp veritabanı, en iyi rtp oyunlar"
         />
         <title>
           En Yüksek RTP'li Oyunlar | Casino oyunlarının en güncel RTP oranları
@@ -126,6 +126,7 @@ const EnYuksekRTPOyunlarPage = ({ games }) => {
             bulabilirsiniz.
           </p>
         </section>
+        <br />
       </Container>
     </>
   );

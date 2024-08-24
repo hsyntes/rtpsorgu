@@ -5,8 +5,9 @@ import { getGame, searchGames } from "@/utils/helpers";
 import Image from "next/image";
 import GamesLoading from "@/components/ui/loadings/GamesLoading";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import { faAngleRight, faSearch } from "@fortawesome/free-solid-svg-icons";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -94,11 +95,11 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar"
+          content="rtp sorgu, rtpsorgu, rtp sorgulama, rtp öğrenme, rtp ogrenme, rtp ne demek, rtp nedir, rtp, rtp en yüksek oyunlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı, oyunlarda rtp, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar, en çok kazandıran oyunlar, en iyi rtp oyunlar"
         />
         <title>RTP Sorgu | Casino oyunlarının en güncel RTP oranları</title>
       </Head>
-      <header className="flex flex-col items-center justify-center bg-primary h-[45vh]">
+      <header className="flex flex-col items-center justify-center bg-primary h-[50vh]">
         <Image
           src={"/logo.light.png"}
           width={1957}
@@ -110,7 +111,7 @@ export default function Home() {
           Casino oyunlarının en güncel RTP değerlerini öğrenmek için oyun ismini
           aşağıya yazınız.
         </p>
-        <div className="relative text-center mx-auto w-full">
+        <div className="relative text-center mx-auto w-full mb-8">
           <input
             type="text"
             name="game"
@@ -177,6 +178,15 @@ export default function Home() {
             </div>
           )}
         </div>
+        <Link href={"/en-yuksek-rtp-oyunlar"}>
+          <button
+            type="button"
+            className="flex items-center gap-2 bg-none bg-orange-500 hover:bg-orange-600 rounded-lg shadow text-white transition-all py-3 px-6"
+          >
+            <span className="font-bold text-sm">En Yüksek RTP Oyunlar</span>
+            <FontAwesomeIcon icon={faAngleRight} />
+          </button>
+        </Link>
       </header>
       <br />
       {isSelectedGameLoading && (
@@ -337,6 +347,7 @@ export default function Home() {
             <br />
           </section>
         </section>
+        <br />
       </Container>
     </>
   );

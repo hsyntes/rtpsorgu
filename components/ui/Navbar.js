@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 bg-white py-6">
+      <nav className="sticky top-0 bg-white py-6 z-50">
         <Container>
           <section className="lg:w-3/4 flex items-center justify-between mx-auto">
             <Link href={"/"}>
@@ -39,7 +39,9 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/hakkimizda"}
-                  className="text-gray-600 hover:text-primary transition-all"
+                  className={`text-gray-600 hover:text-primary ${
+                    pathname === "/hakkimizda" && "text-primary"
+                  } transition-all`}
                 >
                   Hakkımızda
                 </Link>
@@ -47,7 +49,9 @@ const Navbar = () => {
               <li>
                 <Link
                   href={"/en-yuksek-rtp-oyunlar"}
-                  className="text-gray-600 hover:text-primary transition-all"
+                  className={`text-gray-600 hover:text-primary ${
+                    pathname === "/en-yuksek-rtp-oyunlar" && "text-primary"
+                  } transition-all`}
                 >
                   En Yüksek RTP Oyunlar
                 </Link>
