@@ -3,9 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-const EnYuksekRTPOyunlarPage = ({ data }) => {
-  const { games } = data.data;
-
+const EnYuksekRTPOyunlarPage = ({ games }) => {
   return (
     <>
       <Head>
@@ -137,9 +135,11 @@ export async function getServerSideProps() {
   const response = await fetch(`${process.env.NEXT_PUBLIC_API}/games`);
   const data = await response.json();
 
+  const { games } = data.data;
+
   return {
     props: {
-      data,
+      games,
     },
   };
 }
