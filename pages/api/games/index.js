@@ -8,7 +8,7 @@ export default async function handler(req, res) {
     const games = await Game.aggregate([
       {
         $match: {
-          rtp: { $exists: true, $ne: null }, // Filter documents where 'rtp' exists and is not null
+          rtp: { $exists: true, $ne: null },
         },
       },
       {
@@ -22,11 +22,13 @@ export default async function handler(req, res) {
     ]);
 
     for (const game of games) {
-      if (new Date() - new Date(game.updatedAt) > 20 * 60 * 1000) {
+      if (new Date() - new Date(game.updatedAt) > 1 * 60 * 1000) {
         game.rtp = parseFloat((Math.random() * (99 - 90) + 90).toFixed(2));
-        await game.save();
+        await Game.findByIdAndUpdate(game._id, { rtp: game.rtp });
       }
     }
+
+    games.sort((a, b) => b.rtp - a.rtp);
 
     res.status(200).json({
       status: "succes",
