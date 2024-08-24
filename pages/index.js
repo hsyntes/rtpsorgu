@@ -6,9 +6,6 @@ import { useQuery } from "react-query";
 import { getGame, getGames, searchGames } from "@/utils/helpers";
 import Image from "next/image";
 import GamesLoading from "@/components/ui/loadings/GamesLoading";
-import HttpRequest from "@/utils/HttpRequest";
-
-// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -23,7 +20,6 @@ export default function Home() {
   function handleSelectGame(id) {
     setQuery("");
     setQueryDropdown(false);
-
     setSelectedGameId(id);
   }
 
@@ -332,30 +328,3 @@ export async function getServerSideProps() {
     },
   };
 }
-
-// const [query, setQuery] = useState("");
-// const [filteredGames, setFilteredGames] = useState([]);
-// const [selectedGame, setSelectedGame] = useState();
-
-// const handleInputChange = (event) => {
-//   const query = event.target.value;
-//   setQuery(query);
-
-//   const filtered = games.Data.games.filter((game) =>
-//     game.name.toLowerCase().includes(query.toLowerCase())
-//   );
-
-//   setFilteredGames(filtered);
-// };
-
-// const handleOptionSelect = (event) => {
-//   const selectedName = event.target.value;
-
-//   const selected = games.Data.games.find(
-//     (game) => game.name === selectedName
-//   );
-
-//   setSelectedGame(selected);
-// };
-
-// console.log("Selected Game: ", selectedGame);
