@@ -95,7 +95,7 @@ const AboutPage = () => {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar"
+          content="rtp sorgu, rtpsorgu, rtp, rtp öğrenme, rtp ogrenme, rtp sorgulama, rtp en yüksek oyunlar, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar, oyunlarda rtp, rtp ne demek, rtp nedir, en iyi rtp oyunlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı"
         />
         <title>
           RTP Sorgu Hakkında | RTP Sorgu | Casino oyunlarının en güncel RTP
@@ -144,103 +144,6 @@ const AboutPage = () => {
               eden platformumuz, sürekli gelişen teknolojik altyapısıyla her
               geçen gün daha da büyümekte ve kullanıcılarına daha iyi hizmet
               sunmak için kendini yenilemektedir.
-            </p>
-          </section>
-          <br />
-          <br />
-          <section>
-            <h2 className="font-bold mb-1">Vizyonumuz</h2>
-            <p>
-              Vizyonumuz, bilginin gücüne inanarak, herkes için ulaşılabilir ve
-              anlaşılır hale getirmektir. Müşterilerimizin ihtiyaçlarına uygun
-              çözümler üretmek ve sektörde öncü konumumuzu sürdürmek için
-              çalışıyoruz. rtpsorgu.com güven, kalite ve şeffaflık ilkeleri
-              doğrultusunda hareket ederek, kullanıcı deneyimini en üst düzeyde
-              tutmayı ve her zaman bir adım önde olmayı misyon edinmiştir.
-            </p>
-            <br />
-            <p>
-              <strong>rtp sorgu</strong>, kurulduğu günden bu yana, bilgiye
-              erişim ve veri analiz süreçlerini daha şeffaf, erişilebilir ve
-              kullanıcı dostu bir hale getirmeyi amaçlamaktadır. Sunduğumuz
-              hizmetler, sadece bilgiye hızlı erişim sağlamakla kalmaz, aynı
-              zamanda kullanıcılarımızın karar alma süreçlerinde de kritik bir
-              rol oynar. Platformumuz, en yeni teknolojileri ve veri işleme
-              tekniklerini kullanarak, müşterilerimizin en doğru bilgilere en
-              hızlı şekilde ulaşmalarını sağlar.
-            </p>
-            <br />
-            <p>
-              Her gün büyüyen ve gelişen veri dünyasında, kullanıcılarımızın
-              ihtiyacına uygun, kapsamlı ve doğru bilgiyi sunmak için
-              çalışıyoruz. Verinin sadece bir sayıdan ibaret olmadığını, doğru
-              kullanıldığında büyük farklar yaratabileceğini biliyoruz. Bu
-              bilinçle,&nbsp;
-              <strong>rtpsorgu.com</strong>&nbsp;olarak veriyi anlamlandırma ve
-              işleme konusunda uzmanlaşmış ekibimizle, kullanıcılarımıza en iyi
-              deneyimi sunmak için sürekli olarak yeni çözümler
-              geliştirmekteyiz.
-            </p>
-          </section>
-          <br />
-          <br />
-          <section>
-            <h2 className="font-bold mb-1">Misyonumuz</h2>
-            <p>
-              <strong>rtp sorgu</strong> olarak şeffaflığa olan tutkumuz,
-              kullanıcı odaklı yaklaşımımız ve sürekli gelişim anlayışımızla,
-              gelecekte de bilgiye dayalı çözümler sunmaya devam edeceğiz.
-              Müşterilerimizle kurduğumuz güçlü bağ, başarılarımızın temelini
-              oluşturmakta ve bize ilham vermektedir. Siz de bilgiye ulaşmanın
-              en güvenilir ve etkili yolu olan RTP Sorgu keşfedin ve farkımızı
-              yaşayın.
-            </p>
-            <br />
-            <p>
-              RTP Sorgu, bilgiye erişimin önemini bilen ve bu bilgiyi en doğru
-              şekilde sunmayı kendine misyon edinmiş bir platformdur. Dijital
-              çağın hızla gelişen dünyasında, doğru bilgiye zamanında ulaşmak
-              her zamankinden daha önemli hale gelmiştir. Biz de bu doğrultuda,
-              bireylerin ve işletmelerin bilgiye erişimlerini kolaylaştırmak ve
-              güvenilir veri sağlayıcısı olma hedefiyle çalışmalarımızı
-              sürdürüyoruz.
-            </p>
-            <br />
-            <p>
-              Kuruluşumuzdan bu yana, kullanıcılarımızın değişen ihtiyaçlarını
-              karşılamak ve onlara en iyi hizmeti sunabilmek için sürekli olarak
-              kendimizi yeniliyoruz. <strong>RTP Sorgu</strong>, gelişen
-              teknolojiyi yakından takip eden ve yeniliklere hızla adapte olan
-              bir ekibe sahiptir. Bu sayede, veri işleme, analiz ve raporlama
-              süreçlerinde daima en güncel ve etkili yöntemleri kullanarak,
-              kullanıcılarımızın beklentilerini karşılamayı ve aşmayı
-              başarıyoruz.
-            </p>
-          </section>
-          <br />
-          <br />
-          <section>
-            <h2 className="font-bold mb-1">RTP Sorgu Müşteri Memnuniyeti</h2>
-            <p>
-              Müşterilerimizin memnuniyetini en ön planda tutarak, sunduğumuz
-              hizmetleri sürekli olarak iyileştiriyoruz. Kullanıcılarımızın bize
-              duyduğu güveni her geçen gün pekiştirmek için gizlilik, güvenlik
-              ve etik değerlerimize bağlı kalarak, tüm süreçlerimizde şeffaflığı
-              ve doğruluğu garanti ediyoruz. RTP Sorgu, her bir kullanıcının
-              ihtiyacına yönelik özelleştirilmiş çözümler sunarken, inovasyon ve
-              gelişimden ödün vermeyen yapısıyla sektörde fark yaratmayı
-              sürdürüyor.
-            </p>
-            <br />
-            <p>
-              Bizi tercih eden kullanıcılarımıza, bilgiye ulaşmanın yanı sıra,
-              bu bilgiyi etkili bir şekilde kullanma becerisi de kazandırmayı
-              hedefliyoruz. Misyonumuz, dijital çağda bilginin
-              demokratikleşmesine katkıda bulunmak ve her bireyin ve işletmenin
-              bilgiye dayalı kararlar almasını kolaylaştırmaktır. Vizyonumuz
-              ise, Türkiye'nin en güvenilir ve en çok tercih edilen veri
-              sorgulama platformu olarak, ulusal ve uluslararası arenada lider
-              bir konuma ulaşmaktır.
             </p>
           </section>
         </section>
@@ -325,7 +228,6 @@ const AboutPage = () => {
           )}
         </div>
       </section>
-      <br />
       {isSelectedGameLoading && (
         <Container className={"lg:w-1/4 mx-auto"}>
           <GamesLoading size={"lg"} />
@@ -355,9 +257,81 @@ const AboutPage = () => {
         </Container>
       )}
       <Container>
-        <br />
-        <br />
-        <section>
+        <section className="my-8 lg:w-3/4 mx-auto text-justify">
+          <section>
+            <h2 className="font-bold mb-1">Vizyonumuz</h2>
+            <p>
+              Vizyonumuz, bilginin gücüne inanarak, herkes için ulaşılabilir ve
+              anlaşılır hale getirmektir. Müşterilerimizin ihtiyaçlarına uygun
+              çözümler üretmek ve sektörde öncü konumumuzu sürdürmek için
+              çalışıyoruz. rtpsorgu.com güven, kalite ve şeffaflık ilkeleri
+              doğrultusunda hareket ederek, kullanıcı deneyimini en üst düzeyde
+              tutmayı ve her zaman bir adım önde olmayı misyon edinmiştir.
+            </p>
+            <br />
+            <p>
+              <strong>rtp sorgu</strong>, kurulduğu günden bu yana, bilgiye
+              erişim ve veri analiz süreçlerini daha şeffaf, erişilebilir ve
+              kullanıcı dostu bir hale getirmeyi amaçlamaktadır. Sunduğumuz
+              hizmetler, sadece bilgiye hızlı erişim sağlamakla kalmaz, aynı
+              zamanda kullanıcılarımızın karar alma süreçlerinde de kritik bir
+              rol oynar. Platformumuz, en yeni teknolojileri ve veri işleme
+              tekniklerini kullanarak, müşterilerimizin en doğru bilgilere en
+              hızlı şekilde ulaşmalarını sağlar.
+            </p>
+            <br />
+            <p>
+              Her gün büyüyen ve gelişen veri dünyasında, kullanıcılarımızın
+              ihtiyacına uygun, kapsamlı ve doğru bilgiyi sunmak için
+              çalışıyoruz. Verinin sadece bir sayıdan ibaret olmadığını, doğru
+              kullanıldığında büyük farklar yaratabileceğini biliyoruz. Bu
+              bilinçle,&nbsp;
+              <strong>rtpsorgu.com</strong>&nbsp;olarak veriyi anlamlandırma ve
+              işleme konusunda uzmanlaşmış ekibimizle, kullanıcılarımıza en iyi
+              deneyimi sunmak için sürekli olarak yeni çözümler
+              geliştirmekteyiz.
+            </p>
+          </section>
+          <br />
+          <br />
+          <section>
+            <h2 className="font-bold mb-1">Misyonumuz</h2>
+            <p>
+              <strong>rtp sorgu</strong> olarak şeffaflığa olan tutkumuz,
+              kullanıcı odaklı yaklaşımımız ve sürekli gelişim anlayışımızla,
+              gelecekte de bilgiye dayalı çözümler sunmaya devam edeceğiz.
+              Müşterilerimizle kurduğumuz güçlü bağ, başarılarımızın temelini
+              oluşturmakta ve bize ilham vermektedir. Siz de bilgiye ulaşmanın
+              en güvenilir ve etkili yolu olan RTP Sorgu keşfedin ve farkımızı
+              yaşayın.
+            </p>
+            <br />
+            <p>
+              RTP Sorgu, bilgiye erişimin önemini bilen ve bu bilgiyi en doğru
+              şekilde sunmayı kendine misyon edinmiş bir platformdur. Dijital
+              çağın hızla gelişen dünyasında, doğru bilgiye zamanında ulaşmak
+              her zamankinden daha önemli hale gelmiştir. Biz de bu doğrultuda,
+              bireylerin ve işletmelerin bilgiye erişimlerini kolaylaştırmak ve
+              güvenilir veri sağlayıcısı olma hedefiyle çalışmalarımızı
+              sürdürüyoruz.
+            </p>
+            <br />
+            <p>
+              Kuruluşumuzdan bu yana, kullanıcılarımızın değişen ihtiyaçlarını
+              karşılamak ve onlara en iyi hizmeti sunabilmek için sürekli olarak
+              kendimizi yeniliyoruz. <strong>RTP Sorgu</strong>, gelişen
+              teknolojiyi yakından takip eden ve yeniliklere hızla adapte olan
+              bir ekibe sahiptir. Bu sayede, veri işleme, analiz ve raporlama
+              süreçlerinde daima en güncel ve etkili yöntemleri kullanarak,
+              kullanıcılarımızın beklentilerini karşılamayı ve aşmayı
+              başarıyoruz.
+            </p>
+          </section>
+        </section>
+      </Container>
+      <br />
+      <Container>
+        <section className="w-3/4 mx-auto my-8 text-justify">
           <h2 className="font-bold mb-1">
             Casino, Bet ve Bahis Sitelerindeki Oyunların RTP Değerlerini Doğru
             Şekilde Sorgulama
@@ -402,9 +376,35 @@ const AboutPage = () => {
             oyun deneyimlerini en iyi şekilde yaşamalarını sağlamaktır.
           </p>
         </section>
-        <br />
-        <br />
       </Container>
+      <br />
+      <Container>
+        <section className="lg:w-3/4 mx-auto my-8 text-justify">
+          <h2 className="font-bold mb-1">RTP Sorgu Müşteri Memnuniyeti</h2>
+          <p>
+            Müşterilerimizin memnuniyetini en ön planda tutarak, sunduğumuz
+            hizmetleri sürekli olarak iyileştiriyoruz. Kullanıcılarımızın bize
+            duyduğu güveni her geçen gün pekiştirmek için gizlilik, güvenlik ve
+            etik değerlerimize bağlı kalarak, tüm süreçlerimizde şeffaflığı ve
+            doğruluğu garanti ediyoruz. RTP Sorgu, her bir kullanıcının
+            ihtiyacına yönelik özelleştirilmiş çözümler sunarken, inovasyon ve
+            gelişimden ödün vermeyen yapısıyla sektörde fark yaratmayı
+            sürdürüyor.
+          </p>
+          <br />
+          <p>
+            Bizi tercih eden kullanıcılarımıza, bilgiye ulaşmanın yanı sıra, bu
+            bilgiyi etkili bir şekilde kullanma becerisi de kazandırmayı
+            hedefliyoruz. Misyonumuz, dijital çağda bilginin demokratikleşmesine
+            katkıda bulunmak ve her bireyin ve işletmenin bilgiye dayalı
+            kararlar almasını kolaylaştırmaktır. Vizyonumuz ise, Türkiye'nin en
+            güvenilir ve en çok tercih edilen veri sorgulama platformu olarak,
+            ulusal ve uluslararası arenada lider bir konuma ulaşmaktır.
+          </p>
+        </section>
+      </Container>
+      <br />
+      <br />
     </>
   );
 };

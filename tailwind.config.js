@@ -11,6 +11,7 @@ module.exports = {
         primary: {
           DEFAULT: "rgb(var(--color-primary))",
           darker: "rgb(var(--color-primary-darker))",
+          lighter: "tgb(var(--color-primary-lighter))",
         },
       },
     },

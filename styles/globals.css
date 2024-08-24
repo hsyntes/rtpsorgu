@@ -5,6 +5,7 @@
 :root {
   --color-primary: 255, 145, 0;
   --color-primary-darker: 204, 116, 0;
+  --color-primary-lighter: 255, 167, 51;
 }
 
 body {
