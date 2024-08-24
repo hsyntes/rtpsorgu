@@ -1,17 +1,14 @@
 import Head from "next/head";
+import Navbar from "./ui/Navbar";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Head>
-        <meta
-          name="description"
-          content="RTP Sorgu | Casino oyunlarının en güncel RTP oranları"
-        />
-        <meta name="keywords" content="rtp sorgu, rtpsorgu, rtp" />
-        <title>RTP Sorgu</title>
-      </Head>
+      <Navbar />
       <main>{children}</main>
+      <footer className="text-white text-center bg-primary p-2">
+        © rtpsorgu.com Tüm hakları saklıdır.
+      </footer>
     </>
   );
 };
