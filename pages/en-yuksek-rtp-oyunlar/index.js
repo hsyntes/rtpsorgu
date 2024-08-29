@@ -13,10 +13,12 @@ const EnYuksekRTPOyunlarPage = ({ games }) => {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, rtp öğrenme, rtp ogrenme, yüksek rtpli oyunlar, en yüksek rtp oyunlar, en çok kazandıran oyunlar, oyunlarda rtp, rtp'si en yüksek oyunlar, casino rtp, rtp ne demek, rtp nedir, casino oyun rtp, canlı rtp, canlı rtp veritabanı, en iyi rtp oyunlar"
+          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, rtp öğrenme, rtp ogrenme, en yüksek rtp oyunlar, rtp yüksek siteler, rtp en iyi slot siteler, yüksek rtpli oyunlar, güncel rtp oranları, en yüksek rtp oyunlar, en çok kazandıran oyunlar, oyunlarda rtp, rtp si en yüksek oyunlar, casino rtp, rtp ne demek, rtp nedir, casino oyun rtp, canlı rtp, canlı rtp veritabanı, en iyi rtp oyunlar"
         />
         <title>
-          En Yüksek RTP'li Oyunlar | Casino oyunlarının en güncel RTP oranları
+          RTP Sorgu | En Yüksek RTP'li Oyunlar | Casino oyunlarının en güncel
+          RTP oranları | En Yüksek RTP Slot Siteler | En Yüksek RTP Oyunlar |
+          Güncel RTP Oranları | RTP Yüksek Oyunlar
         </title>
       </Head>
       <Container>

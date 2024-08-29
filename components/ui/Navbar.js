@@ -48,6 +48,16 @@ const Navbar = () => {
               </li>
               <li>
                 <Link
+                  href={"/sikca-sorulan-sorular"}
+                  className={`text-gray-600 hover:text-primary ${
+                    pathname === "/sikca-sorulan-sorular" && "text-primary"
+                  } transition-all`}
+                >
+                  Sıkça Sorulan Sorular
+                </Link>
+              </li>
+              <li>
+                <Link
                   href={"/en-yuksek-rtp-oyunlar"}
                   className={`text-gray-600 hover:text-primary ${
                     pathname === "/en-yuksek-rtp-oyunlar" && "text-primary"
@@ -109,6 +119,17 @@ const Navbar = () => {
                   onClick={() => setMenu(false)}
                 >
                   Hakkımızda
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/sikca-sorulan-sorular"}
+                  className={`text-gray-600 hover:text-primary ${
+                    pathname === "/sikca-sorulan-sorular" && "text-primary"
+                  } transition-all`}
+                  onClick={() => setMenu(false)}
+                >
+                  Sıkça Sorulan Sorular
                 </Link>
               </li>
               <li>

@@ -95,9 +95,13 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp sorgulama, rtp öğrenme, rtp ogrenme, rtp ne demek, rtp nedir, rtp, rtp en yüksek oyunlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı, oyunlarda rtp, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar, en çok kazandıran oyunlar, en iyi rtp oyunlar"
+          content="rtp sorgu, rtpsorgu, rtp sorgulama, rtp öğrenme, rtp ogrenme, en yüksek rtp oyunlar, rtp yüksek siteler, rtp ne demek, güncel rtp oranları, rtp nedir, rtp, yüksek rtp oranları, en iyi rtp slot oyunları, rtp en yüksek oyunlar, rtp yüksek bet siteleri, rtp yüksek slotlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı, oyunlarda rtp, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp si en yüksek oyunlar, en çok kazandıran oyunlar, en iyi rtp oyunlar"
         />
-        <title>RTP Sorgu | Casino oyunlarının en güncel RTP oranları</title>
+        <title>
+          RTP Sorgu | Casino oyunlarının en güncel RTP oranları | En Yüksek RTP
+          Slot Siteler | En Yüksek RTP Oyunlar | Güncel RTP Oranları | RTP
+          Yüksek Oyunlar
+        </title>
       </Head>
       <header className="flex flex-col items-center justify-center bg-primary h-[50vh]">
         <Image
