@@ -95,11 +95,12 @@ const AboutPage = () => {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp, rtp öğrenme, rtp ogrenme, rtp sorgulama, rtp en yüksek oyunlar, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp'si en yüksek oyunlar, oyunlarda rtp, rtp ne demek, rtp nedir, en iyi rtp oyunlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı"
+          content="rtp sorgu, rtpsorgu, rtp, rtp öğrenme, rtp ogrenme, rtp sorgulama, en yüksek rtp oyunlar, güncel rtp oranları, rtp yüksek siteler, rtp slot siteleri, en yüksek rtp oranı oyunlar, rtp en yüksek oyunlar, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp si en yüksek oyunlar, oyunlarda rtp, rtp ne demek, rtp nedir, en iyi rtp oyunlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı"
         />
         <title>
-          RTP Sorgu Hakkında | RTP Sorgu | Casino oyunlarının en güncel RTP
-          oranları
+          RTP Sorgu | Casino oyunlarının en güncel RTP oranları | En Yüksek RTP
+          Slot Siteler | En Yüksek RTP Oyunlar | Güncel RTP Oranları | RTP
+          Yüksek Oyunlar
         </title>
       </Head>
       <Container>
