@@ -22,10 +22,10 @@ const EnYuksekRTPOyunlarPage = ({ games }) => {
         </title>
       </Head>
       <Container>
-        <section className="lg:w-3/4 mx-auto">
-          <section className="text-center my-16">
-            <h1 className="text-lg font-bold">
-              En Yüksek RTP Değerlere Sahip Oyunlar
+        <section className="my-8 lg:w-3/4 mx-auto">
+          <section className="text-center">
+            <h1 className="text-lg font-bold text-primary">
+              RTP En Yüksek Oyunlar
             </h1>
             <br />
             <p>

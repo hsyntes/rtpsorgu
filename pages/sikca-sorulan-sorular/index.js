@@ -19,7 +19,7 @@ const FrequentlyAskedQuestionsPage = () => {
         </title>
       </Head>
       <Container>
-        <section className="lg:w-3/4 mx-auto">
+        <section className="my-8 lg:w-3/4 mx-auto">
           <br />
           <section>
             <h1 className="font-bold mb-1">
