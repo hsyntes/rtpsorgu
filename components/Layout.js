@@ -1,5 +1,9 @@
 import Head from "next/head";
 import Navbar from "./ui/Navbar";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+
+config.autoAddCss = false;
 
 const Layout = ({ children }) => {
   return (
