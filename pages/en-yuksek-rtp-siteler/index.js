@@ -13,7 +13,7 @@ const EnYuksekRTPSitelerPage = ({ websites }) => {
         />
         <meta
           name="keywords"
-          content="en yüksek rtp slot sitesi, rtp en yüksek siteler, rtp ne demek, güncel rtp oranları, rtp nedir, rtp, yüksek rtp oranları, en iyi rtp slot oyunları, rtp en yüksek oyunlar, rtp yüksek bet siteleri, rtp yüksek slotlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı, oyunlarda rtp, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp si en yüksek oyunlar, en çok kazandıran oyunlar, en iyi rtp oyunlar"
+          content="rtp sorgu, rtp sorgulama, en yüksek rtp slot sitesi, rtp en yüksek siteler, rtp ne demek, güncel rtp oranları, rtp nedir, rtp, yüksek rtp oranları, en iyi rtp slot oyunları, rtp en yüksek oyunlar, rtp yüksek bet siteleri, rtp yüksek slotlar, casino rtp, casino oyun rtp, canlı rtp, canlı rtp veritabanı, oyunlarda rtp, yüksek rtpli oyunlar, rtp yüksek oyunlar, rtp si en yüksek oyunlar, en çok kazandıran oyunlar, en iyi rtp oyunlar"
         />
         <title>
           Casino oyunlarının en güncel RTP oranları | En Yüksek RTP Slot Siteler

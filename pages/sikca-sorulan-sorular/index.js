@@ -11,7 +11,7 @@ const FrequentlyAskedQuestionsPage = () => {
         />
         <meta
           name="keywords"
-          content="rtp sorgu, rtpsorgu, rtp, rtp en yüksek oyunlar, en yüksek rtp oyunlar, rtp yüksek siteler, rtp en iyi slot siteler, güncel rtp oranları, yüksek rtpli oyunlar, rtp en yüksek siteler, en yüksek rtp oyunlar, en çok kazandıran oyunlar, oyunlarda rtp, rtp si en yüksek oyunlar, rtp ne demek, rtp nedir, canlı rtp, canlı rtp veritabanı, en iyi rtp oyunlar"
+          content="rtp sorgu, rtpsorgu, rtp sorgulama, rtp, rtp en yüksek oyunlar, en yüksek rtp oyunlar, rtp yüksek siteler, rtp en iyi slot siteler, güncel rtp oranları, yüksek rtpli oyunlar, rtp en yüksek siteler, en yüksek rtp oyunlar, en çok kazandıran oyunlar, oyunlarda rtp, rtp si en yüksek oyunlar, rtp ne demek, rtp nedir, canlı rtp, canlı rtp veritabanı, en iyi rtp oyunlar"
         />
         <title>
           RTP Sorgu | En Yüksek RTP Slot Siteler | En Yüksek RTP Oyunlar |
