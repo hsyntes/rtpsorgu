@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="sticky top-0 bg-white py-6 z-50">
+      <nav className="sticky top-0 bg-white shadow-sm py-6 z-50">
         <Container>
           <section className="lg:w-3/4 flex items-center justify-between mx-auto">
             <Link href={"/"}>
@@ -66,6 +66,16 @@ const Navbar = () => {
                   En Yüksek RTP Oyunlar
                 </Link>
               </li>
+              <li>
+                <Link
+                  href={"/en-yuksek-rtp-siteler"}
+                  className={`text-gray-600 hover:text-primary ${
+                    pathname === "/en-yuksek-rtp-siteler" && "text-primary"
+                  } transition-all`}
+                >
+                  En Yüksek RTP Siteler
+                </Link>
+              </li>
             </ul>
             <FontAwesomeIcon
               icon={faBars}
@@ -96,7 +106,7 @@ const Navbar = () => {
             />
           </div>
           <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
-            <h1 className="font-bold text-2xl text-center">RTP Sorgu Menü</h1>
+            <h1 className="font-bold text-2xl text-center">Menü</h1>
             <br />
             <ul className="text-center text-lg space-y-2">
               <li>
@@ -141,6 +151,17 @@ const Navbar = () => {
                   onClick={() => setMenu(false)}
                 >
                   En Yüksek RTP Oyunlar
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={"/en-yuksek-rtp-siteler"}
+                  className={`text-gray-600 hover:text-primary ${
+                    pathname === "/en-yuksek-rtp-siteler" && "text-primary"
+                  } transition-all`}
+                  onClick={() => setMenu(false)}
+                >
+                  En Yüksek RTP Siteler
                 </Link>
               </li>
             </ul>
