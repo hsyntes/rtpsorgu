@@ -11,6 +11,7 @@ const cors = Cors({
     "https://www.kokleyum.com",
     "https://kokleyum.vercel.app",
     "https://rtpsorgu.vercel.app",
+    "http://localhost:3000",
   ],
 });
 
