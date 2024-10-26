@@ -56,8 +56,6 @@ const Layout = ({ children }) => {
       });
       const data = await response.json();
 
-      console.log("Data: ", data);
-
       return data;
     },
     onSuccess: function (data) {
